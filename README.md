@@ -7,7 +7,7 @@
 
 Soy **Senior .NET Developer** viviendo en **Canadá** y trabajando **remoto**. Mi foco principal es el **backend**: diseño APIs y servicios con **C# / .NET**, pensando en **performance**, **mantenibilidad**, **observabilidad** y **entregas seguras**.
 
-Actualmente estoy profundizando en **Azure** y **Azure AI** con un enfoque muy práctico: construyo proyectos alineados a la certificación **AI-102** (y también **AZ-204**) para convertir teoría en soluciones reales.  
+Actualmente estoy profundizando en **Azure** y **Azure AI** con un enfoque muy práctico: construyo proyectos alineados a la certificación **AI-102** para convertir teoría en soluciones reales.  
 Me interesa especialmente aplicar **Computer Vision**, **Document Intelligence**, y patrones modernos como **RAG** para aplicaciones empresariales.
 
 **Lo que me importa en ingeniería:** claridad en el código, decisiones medibles, datos > opiniones, y sistemas que se puedan operar sin drama.
@@ -18,7 +18,7 @@ Me interesa especialmente aplicar **Computer Vision**, **Document Intelligence**
 
 I’m a **Senior .NET Developer** based in **Canada**, working **remotely**. My core focus is **backend engineering**: designing APIs and services with **C# / .NET**, with strong emphasis on **performance**, **maintainability**, **observability**, and **safe delivery**.
 
-Right now I’m going deeper into **Azure** and **Azure AI**, focusing on hands-on projects aligned with **AI-102** (and also **AZ-204**) to turn learning into real solutions.  
+Right now I’m going deeper into **Azure** and **Azure AI**, focusing on hands-on projects aligned with **AI-102** to turn learning into real solutions.  
 I’m especially interested in building practical systems with **Computer Vision**, **Document Intelligence**, and modern patterns like **RAG** for enterprise apps.
 
 **What I value in engineering:** clear code, measurable decisions, data over opinions, and systems that are easy to operate in real life.
@@ -88,13 +88,13 @@ Focused on safe integrations and production-ready patterns (retries, timeouts, l
 - Estudiando **AI-102**: *Create computer vision solutions with Azure AI*  
   - Image analysis, detection, classification y extracción de features
 - Construyendo backend services reales con **Azure AI Vision**
-- Preparación paralela para **AZ-204** (Azure Developer) con enfoque en implementación y operación
+- Mejorando arquitectura backend: resiliencia, observabilidad y diseño de APIs
 
 ### 📌 Now (EN)
 - Studying **AI-102**: *Create computer vision solutions with Azure AI*  
   - Image analysis, detection, classification, and feature extraction
 - Building real backend services using **Azure AI Vision**
-- Also preparing for **AZ-204** (Azure Developer) with focus on implementation and operations
+- Improving backend architecture: resiliency, observability, and API design
 
 ---
 
@@ -105,7 +105,6 @@ Focused on safe integrations and production-ready patterns (retries, timeouts, l
 
 ### 🟡 In Progress
 - **AI-102** *(Azure AI Engineer Associate)*
-- **AZ-204** *(Azure Developer Associate)*
 
 ### 🔁 Learning Path (Continuous)
 - Azure AI solution design: requirements → architecture → integration → evaluation
@@ -120,4 +119,3 @@ Focused on safe integrations and production-ready patterns (retries, timeouts, l
 - **LinkedIn:** https://www.linkedin.com/in/arthur-diaz-johnson/  
 - **Location:** Canada 🇨🇦 (Remote)
 
-> If you want to collaborate or discuss .NET + Azure AI solution design, feel free to reach out.
