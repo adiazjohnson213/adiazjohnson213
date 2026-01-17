@@ -57,9 +57,9 @@ I’m especially interested in building practical systems with **Computer Vision
 > These projects are built to practice real AI-102 skills: designing the solution, integrating Azure AI services, and shipping it as a backend-ready product.
 
 ### 1) Football Logo Detector API *(In Progress)*
-A REST API that receives an image and detects **football club logos** using **Azure AI Vision**.  
-Includes confidence scores, bounding boxes (if applicable), and a clean JSON response for easy integration with apps.  
-**Tech:** .NET, ASP.NET Core, Azure AI Vision, Azure Storage  
+A REST API that receives an image and detects **football club logos** using **Azure AI Vision (Image Analysis)** — leveraging **prebuilt Brand Detection** to return **logo name**, **confidence score**, and **bounding box coordinates** (when available).  
+Includes a clean JSON contract for easy integration with apps and services.  
+**Tech:** .NET, ASP.NET Core, Azure AI Vision (Image Analysis), Azure Storage  
 **Status:** 🛠️ Building
 
 ### 2) Match Poster Insights *(Planned)*
