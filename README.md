@@ -1,5 +1,5 @@
-# Arthur — Senior .NET Developer (Remote, Canada) 🇨🇦  
-**Backend-focused engineer building reliable systems with C#/.NET, and leveling up in Azure + Azure AI.**
+# Arthur Diaz — Senior .NET Developer (Remote, Canada) 🇨🇦  
+**Backend-focused engineer building reliable services with C#/.NET, and creating Azure AI solutions (AI-102 track).**
 
 ---
 
@@ -7,8 +7,8 @@
 
 Soy **Senior .NET Developer** viviendo en **Canadá** y trabajando **remoto**. Mi foco principal es el **backend**: diseño APIs y servicios con **C# / .NET**, pensando en **performance**, **mantenibilidad**, **observabilidad** y **entregas seguras**.
 
-Actualmente estoy profundizando en **Azure** y **Azure AI**, construyendo proyectos prácticos (no solo teoría) y preparándome para certificaciones como **AZ-204** y **AI-102**.  
-En paralelo, estoy fortaleciendo mis skills de **frontend** con **Angular**, **React** y **TypeScript** para entender mejor el producto end-to-end y colaborar más eficientemente con equipos full-stack.
+Actualmente estoy profundizando en **Azure** y **Azure AI** con un enfoque muy práctico: construyo proyectos alineados a la certificación **AI-102** (y también **AZ-204**) para convertir teoría en soluciones reales.  
+Me interesa especialmente aplicar **Computer Vision**, **Document Intelligence**, y patrones modernos como **RAG** para aplicaciones empresariales.
 
 **Lo que me importa en ingeniería:** claridad en el código, decisiones medibles, datos > opiniones, y sistemas que se puedan operar sin drama.
 
@@ -18,8 +18,8 @@ En paralelo, estoy fortaleciendo mis skills de **frontend** con **Angular**, **R
 
 I’m a **Senior .NET Developer** based in **Canada**, working **remotely**. My core focus is **backend engineering**: designing APIs and services with **C# / .NET**, with strong emphasis on **performance**, **maintainability**, **observability**, and **safe delivery**.
 
-Right now I’m going deeper into **Azure** and **Azure AI**, building hands-on projects (not just study material) while preparing for certifications like **AZ-204** and **AI-102**.  
-At the same time, I’m strengthening my **frontend** skills with **Angular**, **React**, and **TypeScript** to better understand end-to-end systems and collaborate effectively in full-stack environments.
+Right now I’m going deeper into **Azure** and **Azure AI**, focusing on hands-on projects aligned with **AI-102** (and also **AZ-204**) to turn learning into real solutions.  
+I’m especially interested in building practical systems with **Computer Vision**, **Document Intelligence**, and modern patterns like **RAG** for enterprise apps.
 
 **What I value in engineering:** clear code, measurable decisions, data over opinions, and systems that are easy to operate in real life.
 
@@ -32,45 +32,52 @@ At the same time, I’m strengthening my **frontend** skills with **Angular**, *
 - REST APIs, background processing, integration services
 - **Entity Framework Core**, Dapper (when appropriate)
 - Authentication/Authorization (JWT, OAuth concepts)
-- Performance tuning, profiling, caching patterns
-
-### Frontend
-- **TypeScript**, JavaScript
-- **Angular**, **React**
-- HTML, CSS (practical UI foundations)
+- Performance tuning, caching patterns, async/await best practices
 
 ### Cloud & AI
 - **Microsoft Azure**
 - App hosting & compute (App Service / Functions)
-- Storage + messaging patterns (Blob, queues, events as needed)
-- **Azure AI** (AI-102 track): LLM apps, RAG concepts, search + embeddings fundamentals
+- Storage patterns (Blob Storage)
+- **Azure AI Services (AI-102 track)**
+  - **Azure AI Vision** (image analysis, detection, classification)
+  - **Azure AI Document Intelligence** (extract structured data from documents)
+  - **Azure AI Search** + embeddings (RAG fundamentals, retrieval patterns)
 
 ### Tools & Practices
-- Git / GitHub, CI/CD basics
-- SOLID, Clean Architecture (pragmatic use)
-- Testing fundamentals (unit + integration mindset)
-- Logging/monitoring mindset (diagnostics, metrics, tracing concepts)
-- Agile collaboration, remote-first workflow
+- Git / GitHub
+- CI/CD basics
+- Clean Architecture (pragmatic use)
+- Testing mindset (unit + integration)
+- Observability mindset (logging, diagnostics, monitoring)
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Projects (AI-102 Aligned)
 
-> Work in progress — I’m actively building and refining these projects as part of my Azure/Azure AI path.
+> These projects are built to practice real AI-102 skills: designing the solution, integrating Azure AI services, and shipping it as a backend-ready product.
 
-### 1) Azure AI RAG Playground *(In Progress)*
-A practical sandbox to test **RAG** patterns: document ingestion, chunking strategies, embeddings, and retrieval quality evaluation.  
-**Tech:** .NET, Azure AI, Azure AI Search (or equivalent), OpenAI models (via Azure)  
-**Status:** 🛠️ Building (iterations + experiments)
+### 1) Football Logo Detector API *(In Progress)*
+A REST API that receives an image and detects **football club logos** using **Azure AI Vision**.  
+Includes confidence scores, bounding boxes (if applicable), and a clean JSON response for easy integration with apps.  
+**Tech:** .NET, ASP.NET Core, Azure AI Vision, Azure Storage  
+**Status:** 🛠️ Building
 
-### 2) Background Job Processor Template *(In Progress)*
-A clean template for long-running tasks with retries, idempotency, and observability-first logging.  
-**Tech:** .NET, Worker Service, async/await, resiliency patterns  
-**Status:** 🧪 In development
+### 2) Match Poster Insights *(Planned)*
+A small service that analyzes football posters/banners (social media images) to extract useful insights: dominant colors, tags, objects, and basic scene understanding.  
+Great for practicing image analysis, metadata extraction, and clean API design.  
+**Tech:** .NET, Azure AI Vision, Azure Functions (optional)  
+**Status:** 📌 Planned
 
-### 3) Minimal API + Auth Starter *(Planned)*
-A production-ready API starter with authentication/authorization, structured logging, and integration-ready architecture.  
-**Tech:** ASP.NET Core, JWT, EF Core, Clean Architecture  
+### 3) Smart Receipt Extractor *(Planned)*
+Uploads receipts/invoices and extracts structured fields (total, date, merchant, taxes) using **Azure AI Document Intelligence**.  
+Outputs normalized JSON and includes validation rules (missing/incorrect values).  
+**Tech:** .NET, ASP.NET Core, Azure AI Document Intelligence, Blob Storage  
+**Status:** 📌 Planned
+
+### 4) Image Moderation Gateway *(Planned)*
+A backend gateway that validates images before publishing: checks quality, detects risky content signals, and returns a policy decision (allow/review/reject).  
+Focused on safe integrations and production-ready patterns (retries, timeouts, logging).  
+**Tech:** .NET, Azure AI Vision, App Service / Functions, Application Insights  
 **Status:** 📌 Planned
 
 ---
@@ -78,16 +85,16 @@ A production-ready API starter with authentication/authorization, structured log
 ## 🎯 Current Focus
 
 ### 📌 Ahora (ES)
-- Preparación activa para **AI-102** (Azure AI Engineer)
-- Construcción de proyectos con **Azure + Azure AI**
-- Mejorar arquitectura backend: performance, resiliencia, observabilidad
-- Subir el nivel en **TypeScript + Angular/React** con práctica real
+- Estudiando **AI-102**: *Create computer vision solutions with Azure AI*  
+  - Image analysis, detection, classification y extracción de features
+- Construyendo backend services reales con **Azure AI Vision**
+- Preparación paralela para **AZ-204** (Azure Developer) con enfoque en implementación y operación
 
 ### 📌 Now (EN)
-- Actively preparing for **AI-102** (Azure AI Engineer)
-- Building real projects with **Azure + Azure AI**
-- Improving backend architecture: performance, resiliency, observability
-- Leveling up **TypeScript + Angular/React** through hands-on work
+- Studying **AI-102**: *Create computer vision solutions with Azure AI*  
+  - Image analysis, detection, classification, and feature extraction
+- Building real backend services using **Azure AI Vision**
+- Also preparing for **AZ-204** (Azure Developer) with focus on implementation and operations
 
 ---
 
@@ -98,16 +105,19 @@ A production-ready API starter with authentication/authorization, structured log
 
 ### 🟡 In Progress
 - **AI-102** *(Azure AI Engineer Associate)*
+- **AZ-204** *(Azure Developer Associate)*
 
 ### 🔁 Learning Path (Continuous)
-- Advanced .NET backend patterns (scalability, integration, reliability)
-- Azure-native architecture (deployment, monitoring, cost-aware choices)
-- Applied LLM engineering (RAG, evaluation, prompt design, responsible AI basics)
+- Azure AI solution design: requirements → architecture → integration → evaluation
+- Building reliable APIs around AI services (timeouts, retries, observability, cost-aware design)
+- Production-focused patterns: secure endpoints, clean contracts, predictable outputs
 
 ---
 
 ## 📫 Contact & Links
 
-- **GitHub:** https://github.com/<your-github-username>
+- **GitHub:** https://github.com/adiazjohnson213
 - **LinkedIn:** https://www.linkedin.com/in/<your-linkedin-handle>  
 - **Location:** Canada 🇨🇦 (Remote)
+
+> If you want to collaborate or discuss .NET + Azure AI solution design, feel free to reach out.
