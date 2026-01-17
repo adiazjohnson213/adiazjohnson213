@@ -78,14 +78,12 @@ A production-ready API starter with authentication/authorization, structured log
 ## 🎯 Current Focus
 
 ### 📌 Ahora (ES)
-- Preparación activa para **AZ-204** (Azure Developer)
 - Preparación activa para **AI-102** (Azure AI Engineer)
 - Construcción de proyectos con **Azure + Azure AI**
 - Mejorar arquitectura backend: performance, resiliencia, observabilidad
 - Subir el nivel en **TypeScript + Angular/React** con práctica real
 
 ### 📌 Now (EN)
-- Actively preparing for **AZ-204** (Azure Developer)
 - Actively preparing for **AI-102** (Azure AI Engineer)
 - Building real projects with **Azure + Azure AI**
 - Improving backend architecture: performance, resiliency, observability
