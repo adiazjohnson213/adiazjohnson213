@@ -117,7 +117,7 @@ Focused on safe integrations and production-ready patterns (retries, timeouts, l
 ## 📫 Contact & Links
 
 - **GitHub:** https://github.com/adiazjohnson213
-- **LinkedIn:** https://www.linkedin.com/in/<your-linkedin-handle>  
+- **LinkedIn:** https://www.linkedin.com/in/arthur-diaz-johnson/  
 - **Location:** Canada 🇨🇦 (Remote)
 
 > If you want to collaborate or discuss .NET + Azure AI solution design, feel free to reach out.
