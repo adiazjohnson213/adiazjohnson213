@@ -1,21 +1,9 @@
 # Arthur Diaz — Senior .NET Developer (Remote, Canada) 🇨🇦
-**Backend-focused engineer building reliable services with C#/.NET and production-ready Azure AI solutions (AI-102 track).**
-
-> This GitHub profile documents how I translate Azure AI concepts into production-ready .NET backend services, aligned with the AI-102 certification.
+**Backend-focused engineer building reliable C#/.NET services and AI-102-aligned Azure AI implementations: Vision (Image Analysis 4.0), Video Indexer, and GenAI observability.**
 
 ---
 
-## 🇪🇸 Sobre mí
-
-Soy **Senior .NET Developer** viviendo en **Canadá** y trabajando **remoto**. Mi foco principal es el **backend**: diseño APIs y servicios con **C# / .NET**, priorizando **performance**, **mantenibilidad**, **observabilidad** y **entregas seguras**.
-
-Actualmente estoy profundizando en **Azure** y **Azure AI** con un enfoque 100% práctico: convierto cada tema de estudio en un **proyecto pequeño y operable**, alineado con la certificación **AI-102**.
-
-**Lo que valoro en ingeniería:** claridad en el código, decisiones medibles, datos > opiniones, y sistemas que se puedan operar sin drama.
-
----
-
-## 🇺🇸 About Me
+## About Me
 
 I’m a **Senior .NET Developer** based in **Canada**, working **remotely**. My core focus is **backend engineering**: designing APIs and services with **C# / .NET**, with strong emphasis on **performance**, **maintainability**, **observability**, and **safe delivery**.
 
@@ -67,96 +55,132 @@ This keeps learning practical, measurable, and aligned with real-world backend w
 
 ---
 
-## 🚀 Featured Projects (Current Focus: NLP — AI-102)
+## 🚀 Featured Projects (AI-102 Practice Snapshots)
 
-> Featured projects reflect what I’m actively studying right now. They evolve as my current focus changes.
+> Projects listed here are practice snapshots aligned to the AI-102 exam. Focus shifts based on retake priorities.
 
-### 1) Text Intelligence API *(Active)*
+| Project | Status | Focus | Repo |
+|---|---|---|---|
+| [Text Intelligence API](https://github.com/adiazjohnson213/TextIntelligenceApi) | ⏸️ Paused | Azure AI Language (NLP basics) | https://github.com/adiazjohnson213/TextIntelligenceApi |
+| Vision Intelligence API | 🧭 Planned | Image Analysis 4.0 + 429 resilience | TBD |
+| Video Indexer Orchestrator | 🧭 Planned | ARM token + async workflow + insights | TBD |
+| GenAI Observability Toolkit | 🧭 Planned | telemetry + tracing + feedback loop | TBD |
+
+### 1) [Text Intelligence API](https://github.com/adiazjohnson213/TextIntelligenceApi) *(Paused)*
+[![Project Status: Inactive](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
+
 A REST API for core **Azure AI Language** text analysis capabilities, designed as an AI-102 practice service with clean contracts and predictable outputs.
 
 **Current study focus:**  
 - Analyze text with **Azure AI Language**
 
-**What I’m practicing now:**  
+**What I’m practicing:**  
 - Language detection  
 - Sentiment analysis  
 - Key phrase extraction  
 - Prebuilt entity recognition  
 
-**Next consolidation step:**  
-- Add exam-style scenarios, edge cases, and validation rules
+**Maintenance note:**  
+This project is paused and kept as a reference snapshot. Enhancements will resume later.
 
 **Tech:** .NET, ASP.NET Core, Azure AI Language  
+**Status:** ⏸️ Paused (not actively maintained)
+
+---
+
+### 2) Vision Intelligence API *(Active — Exam Track)*
+A .NET REST API wrapper for **Azure AI Vision Image Analysis 4.0**, focused on correct SDK usage, REST feature flags, defensive parsing, and throttling resilience (429).
+
+**What I’m practicing:**
+- AnalyzeAsync overloads (Uri vs BinaryData) + correct parameter order
+- VisualFeatures flags (Caption | Read | Objects) mapping from requirements
+- REST `features=` requests + parsing nullable/empty fields
+- 429 throttling: exponential backoff + jitter + concurrency limiting
+
+**Tech:** .NET, ASP.NET Core, Azure AI Vision (Image Analysis 4.0)  
 **Status:** 🛠️ Active
 
 ---
 
-### 2) Custom Text Classification Service *(Active)*
-A backend service to train and serve a **custom text classification** model, focusing on dataset design, evaluation, and production-friendly inference patterns.
+### 3) Video Indexer Orchestrator *(Planned — Exam Track)*
+A backend workflow for Azure Video Indexer: **ARM access token generation**, async upload/index, polling, and insights parsing.
 
-**Current study focus:**  
-- Custom text classification (AI-102)
+**What I plan to practice:**
+- ARM `generateAccessToken` (POST) + permissionType + scope (Account/Project/Video)
+- Async state machine: token → upload/index → poll → insights
+- Time-based outputs: segments/timestamps + keyword filtering
+- Defensive parsing for null/empty lists in insights
 
-**What I’m practicing now:**  
-- Label design and dataset creation  
-- Training vs evaluation trade-offs  
-- “Custom vs prebuilt” decision-making  
-
-**Next consolidation step:**  
-- Error analysis + retraining workflow and versioning notes
-
-**Tech:** .NET, ASP.NET Core, Azure AI Language  
-**Status:** 🛠️ Active
+**Tech:** .NET, Azure AI Video Indexer (ARM), Azure Storage (optional)  
+**Status:** 🧭 Planned
 
 ---
 
-## 📌 Planned Projects (Post-NLP Consolidation)
+### 4) GenAI Observability Toolkit *(Planned — Exam Track)*
+A minimal telemetry/tracing approach for GenAI workloads: correlation, latency, token usage, trace records, and feedback loop.
 
-> Planned projects are designed to consolidate multiple AI-102 areas into end-to-end, interview-ready systems.
+**What I plan to practice:**
+- Minimum viable telemetry: latency, tokens, correlation/request-id, alerts
+- TraceRecord persistence: prompt/params/output/feedback
+- Tracing with Azure Monitor / Application Insights (OpenTelemetry)
 
-### 1) Safe Enterprise Knowledge Assistant *(Planned)*
+**Tech:** .NET, Azure Monitor / Application Insights, Azure OpenAI  
+**Status:** 🧭 Planned
+
+---
+
+## 📌 Planned Projects (Backlog — AI-102)
+
+> Backlog ideas for end-to-end AI-102 systems. Implementation timing is TBD.
+
+### 1) Foundry Prompt Flow & Evaluation Lab *(Planned)*
+A focused lab to practice **prompt flow**, **prompt templates**, and **evaluation flows/metrics** (quality, groundedness, safety checks) using repeatable datasets.
+
+**Focus:** **Prompt Flow** + **Evaluation (models & flows)** + **Prompt Templates**  
+**Tech:** Azure AI Foundry, Prompt Flow, Azure OpenAI, Azure Monitor / Application Insights (optional)
+
+---
+
+### 2) Safe Enterprise Knowledge Assistant *(Planned)*
 A grounded RAG assistant that answers from curated content while enforcing safety policies.
 
-**Focus:** NLP + **Azure AI Search (RAG)** + **Azure OpenAI (prompting)** + **Azure AI Content Safety**  
+**Focus:** **RAG** + **Azure AI Search grounding** + **Azure OpenAI prompting** + **Content Safety**  
 **Tech:** .NET, Azure AI Search, Azure OpenAI, Azure AI Content Safety, Blob Storage
 
 ---
 
-### 2) Intelligent Document Review Pipeline *(Planned)*
-A pipeline that ingests documents and produces structured extraction + semantic insights + summaries.
-
-**Focus:** **Document Intelligence** + Vision + NLP + summarization  
-**Tech:** .NET, Azure AI Document Intelligence, Azure AI Vision, Azure AI Language, Azure OpenAI, Blob Storage
-
----
-
-### 3) Moderated Multimodal Intake API *(Planned)*
-A backend API that accepts text + images and returns **Allow / Review / Reject** decisions with consistent policy rules.
-
-**Focus:** Vision + NLP + **Content Safety** + policy-based decisions  
-**Tech:** .NET, Azure AI Vision, Azure AI Language, Azure AI Content Safety, Azure OpenAI (optional)
-
----
-
-### 4) Task-Oriented AI Agent Backend *(Planned)*
+### 3) Task-Oriented AI Agent Backend *(Planned)*
 A backend-first agent that selects tools, executes tasks, and returns structured results with observability and safe tool usage.
 
-**Focus:** Agents + tool calling + retrieval tool + backend orchestration  
-**Tech:** .NET, Azure OpenAI, Azure AI Search, Azure AI Language (optional), Functions / App Service
+**Focus:** **Agents (tool calling)** + **Orchestration** + **Retrieval tool** + **Observability**  
+**Tech:** .NET, Azure OpenAI, Azure AI Search, Functions / App Service
+
+---
+
+### 4) Moderated Multimodal Intake API *(Planned)*
+A backend API that accepts text + images and returns **Allow / Review / Reject** decisions with consistent policy rules.
+
+**Focus:** **Content Safety policy** + **Vision inputs** + **Allow/Review/Reject decisions**  
+**Tech:** .NET, Azure AI Vision, Azure AI Content Safety, Azure OpenAI (optional)
+
+---
+
+### 5) Intelligent Document Review Pipeline *(Planned)*
+A pipeline that ingests documents and produces structured extraction + semantic insights + summaries.
+
+**Focus:** **Document Intelligence extraction** + **Vision enrichment** + **Summarization**  
+**Tech:** .NET, Azure AI Document Intelligence, Azure AI Vision, Azure AI Language, Azure OpenAI, Blob Storage
 
 ---
 
 ## 🎯 Current Focus
 
-### 📌 Ahora (ES)
-- Preparación **AI-102** con enfoque en **NLP**
-- Construyendo servicios backend reales con **Azure AI Language**
-- Mejorando arquitectura backend: resiliencia, observabilidad y diseño de APIs
-
 ### 📌 Now (EN)
-- Preparing for **AI-102** with a current focus on **NLP**
-- Building real backend services using **Azure AI Language**
-- Improving backend architecture: resiliency, observability, and API design
+- AI-102 retake preparation focused on my weakest areas:
+  - Vision: Image Analysis 4.0 (SDK + REST)
+  - Video Indexer (ARM tokens + async indexing workflow)
+  - GenAI observability (telemetry + tracing + feedback loop)
+- Building backend-first implementations: clean contracts, defensive parsing, and resiliency (429)
 
 ---
 
